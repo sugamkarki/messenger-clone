@@ -1,0 +1,31 @@
+.body {
+  flex: 0.8;
+  justify-self: flex-end;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.chat-wrapper {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  background-color: #aaa69d;
+  padding-left:10px ;
+  min-width: 5vw;
+  border-radius: 20px;
+}
+.messages {
+  background-color: #ff793f;
+  display: flex;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+.myMessage {
+  background-color: #34ace0;
+  display: flex;
+  float: right;
+  /* flex-direction: row-reverse;
+  justify-content: flex-end; */
+}
